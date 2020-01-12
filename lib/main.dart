@@ -67,7 +67,8 @@ class _State extends State<MyApp> {
           child: new Column(
             children: <Widget>[
               new Text('Sales Data'),
-              new Expanded(child: new charts.BarChart<Sales>(_chartdata))
+              //new Expanded(child: new charts.BarChart<Sales>(_chartdata))
+              new Expanded(child: new charts.BarChart(_chartData))
             ],
           ),
         )
